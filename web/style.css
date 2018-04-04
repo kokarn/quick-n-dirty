@@ -4,50 +4,53 @@
 body {
     background-color: #f6fcff;
     font-family: 'Helvetica Neue';
-    font-size: 32px;
     font-weight: 300;
 }
 
-table {
+.list-page {
+    font-size: 32px;
+}
+
+.list-page table {
     border-collapse: separate;
     border-spacing: 0px 10px;
 }
 
-tbody tr {
+.list-page tbody tr {
     background-color: #fff;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
 }
 
-tbody tr:first-child {
+.list-page tbody tr:first-child {
     background-color: #63b44f;
     font-weight: 500;
     color: #fff;
 }
 
-tbody tr td:first-child,
-thead tr th:first-child {
+.list-page tbody tr td:first-child,
+.list-page thead tr th:first-child {
     width: 10%;
     text-align: center;
 }
 
-tbody tr td:last-child,
-thead tr th:last-child {
+.list-page tbody tr td:last-child,
+.list-page thead tr th:last-child {
     text-align: right;
 }
 
-.mui-table > tbody > tr > td,
-.mui-table > thead > tr > th {
+.list-page .mui-table > tbody > tr > td,
+.list-page .mui-table > thead > tr > th {
     padding: 20px 30px;
 }
 
-.mui-table > thead > tr > th {
+.list-page .mui-table > thead > tr > th {
     border: 0;
     font-size: 20px;
     font-weight: 500;
 }
 
-.header-wrapper {
+.list-page .header-wrapper {
     border-bottom: 1px solid #000;
     font-weight: 500;
     padding: 40px 40px 20px 40px;
